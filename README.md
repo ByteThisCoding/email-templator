@@ -11,6 +11,11 @@ This email-templator:
 * process and interpolate css style declarations to inline them for each element
 * give console warnings for potentially problematic css style rules
 
+## Install
+Library with typescript definitions available as npm package.
+```
+npm install @byte-this/email-templator
+```
 
 ## How To Use
 You will need two or three of the following:
