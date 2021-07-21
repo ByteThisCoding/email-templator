@@ -4,6 +4,8 @@
 ![Coverage branches](./coverage/badge-branches.svg)
 ![Coverage statements](./coverage/badge-statements.svg)
 
+**For details and info on how to use:** https://bytethisstore.com/articles/pg/email-templating
+
 An api which makes email markup generation a bit easier to deal with. Creating email html is a but cumbersome, as email clients haved mixed support for certain styling attributes, especially more modern ones.
 
 This email-templator:
