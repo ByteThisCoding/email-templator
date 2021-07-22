@@ -56,12 +56,12 @@ export class EmailTemplator implements iEmailTemplator {
             //if it doesn't match, inline the style as normal
             const styleProps = [
                 {
-                    match: /(?<!(line|max)-)height:\s*[0-9]+px;?/g,
+                    match: /^\s*(^line-|max-)?height:\s*[0-9]+px;?\s*$/gm,
                     attr: (matchStr: string) =>
                         `height="${matchStr.replace(/[^0-9]/g, "")}"`,
                 },
                 {
-                    match: /(?<!(line|max)-)width:\s*[0-9]+px;?/g,
+                    match: /^\s*(^line-|max-)?width:\s*[0-9]+px;?\s*$/gm,
                     attr: (matchStr: string) =>
                         `width="${matchStr.replace(/[^0-9]/g, "")}"`,
                 },
