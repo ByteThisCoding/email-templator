@@ -1,9 +1,10 @@
 {
     "name": "@byte-this/email-templator",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Typescript API to facilitate email markup generation and help deal with bad email clients.",
     "main": "public-api.js",
     "types": "public-api.d.ts",
+    "type": "module",
     "scripts": {
         "test": "jest",
         "test:coverage": "jest --coverage && jest-coverage-badges",
